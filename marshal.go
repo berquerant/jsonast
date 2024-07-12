@@ -16,7 +16,7 @@ func (m Marshaler) Build(node Node, initialPath Path) JNode {
 	return m.convert(node, initialPath)
 }
 
-func (m Marshaler) convert(node Node, p Path) any {
+func (m Marshaler) convert(node Node, p Path) JNode {
 	switch node := node.(type) {
 	case *Value:
 		return m.newValue(node, p)
