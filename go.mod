@@ -3,7 +3,7 @@ module github.com/berquerant/jsonast
 go 1.22.5
 
 require (
-	github.com/alecthomas/assert/v2 v2.3.0
+	github.com/alecthomas/assert/v2 v2.10.0
 	github.com/alecthomas/participle/v2 v2.1.1
 	github.com/berquerant/marker v0.2.1
 	github.com/stretchr/testify v1.9.0
@@ -11,7 +11,7 @@ require (
 )
 
 require (
-	github.com/alecthomas/repr v0.2.0 // indirect
+	github.com/alecthomas/repr v0.4.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
