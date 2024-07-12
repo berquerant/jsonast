@@ -1,0 +1,21 @@
+{
+  "string": "STRING",
+  "int": 123,
+  "float": -12.3,
+  "object": {
+    "TRUE": true,
+    "FALSE": false,
+    "array": [
+      null
+    ]
+  },
+  "list": [
+    {
+      "exp": 10.1e4
+    },
+    {
+      "escape": "\u0000"
+    },
+    "end"
+  ]
+}
