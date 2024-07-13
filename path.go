@@ -45,6 +45,15 @@ func (p Path) Add(elem PathElement) Path {
 	return append(p, elem)
 }
 
+func (p Path) WithoutLast() Path {
+	switch len(p) {
+	case 0, 1:
+		return NewPath()
+	default:
+		return p[:len(p)-1]
+	}
+}
+
 type PathElement interface {
 	AsPath() string
 }
