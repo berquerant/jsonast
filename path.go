@@ -42,7 +42,7 @@ func (p Path) MarshalJSON() ([]byte, error) {
 }
 
 func (p Path) Add(elem PathElement) Path {
-	return append(p, elem)
+	return append(p.Clone(), elem)
 }
 
 func (p Path) WithoutLast() Path {
@@ -50,8 +50,14 @@ func (p Path) WithoutLast() Path {
 	case 0, 1:
 		return NewPath()
 	default:
-		return p[:len(p)-1]
+		return p.Clone()[:len(p)-1]
 	}
+}
+
+func (p Path) Clone() Path {
+	s := make([]PathElement, len(p))
+	copy(s, p)
+	return Path(s)
 }
 
 type PathElement interface {
