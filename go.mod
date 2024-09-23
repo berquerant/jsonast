@@ -3,7 +3,7 @@ module github.com/berquerant/jsonast
 go 1.22.5
 
 require (
-	github.com/alecthomas/assert/v2 v2.10.0
+	github.com/alecthomas/assert/v2 v2.11.0
 	github.com/alecthomas/participle/v2 v2.1.1
 	github.com/berquerant/marker v0.2.1
 	github.com/stretchr/testify v1.9.0
