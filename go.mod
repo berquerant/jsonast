@@ -6,7 +6,7 @@ require (
 	github.com/alecthomas/assert/v2 v2.11.0
 	github.com/alecthomas/participle/v2 v2.1.1
 	github.com/berquerant/marker v0.2.1
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	golang.org/x/vuln v1.1.3
 )
 
