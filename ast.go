@@ -49,7 +49,7 @@ var (
 	)
 )
 
-//go:generate go run github.com/berquerant/marker -method IsNode -type Value,Object,Pair,Array -output ast_node_marker_generated.go
+//go:generate go tool marker -method IsNode -type Value,Object,Pair,Array -output ast_node_marker_generated.go
 
 type Node interface {
 	IsNode()

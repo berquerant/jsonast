@@ -104,7 +104,7 @@ type JPos struct {
 	Offset int `json:"offset"`
 }
 
-//go:generate go run github.com/berquerant/marker -method IsJNode -type JValue,JObject,JPair,JArray -output ast_jnode_marker_generated.go
+//go:generate go tool marker -method IsJNode -type JValue,JObject,JPair,JArray -output ast_jnode_marker_generated.go
 
 // JNode is Node with additional information added.
 // The result of json.Marshal is more organized than Node.
