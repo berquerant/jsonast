@@ -1,10 +1,9 @@
 module github.com/berquerant/jsonast
 
 go 1.24.1
-
 require (
 	github.com/alecthomas/assert/v2 v2.11.0
-	github.com/alecthomas/participle/v2 v2.1.1
+	github.com/alecthomas/participle/v2 v2.1.2
 	github.com/stretchr/testify v1.10.0
 )
 
