@@ -1,6 +1,6 @@
 module github.com/berquerant/jsonast
 
-go 1.24.1
+go 1.24.4
 
 require (
 	github.com/alecthomas/assert/v2 v2.11.0
