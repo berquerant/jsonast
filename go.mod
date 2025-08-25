@@ -5,7 +5,7 @@ go 1.24.4
 require (
 	github.com/alecthomas/assert/v2 v2.11.0
 	github.com/alecthomas/participle/v2 v2.1.4
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 )
 
 require (
